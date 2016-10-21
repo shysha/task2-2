@@ -1,0 +1,118 @@
+html,
+body {
+    height: 100%
+}
+
+html {
+    overflow-y: auto
+}
+
+body,
+p,
+form,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+body,
+form {
+    position: relative
+}
+/*Page Style*/
+body{
+    background-color: #157A93;
+}
+#wrapper{
+    width: 950px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 1px 1px #999;
+}
+#logo{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+#logo .link{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+#logo .link a{
+    color:#FF0099;
+    text-decoration: none;
+}
+header{
+    position: relative;
+    padding:20px;
+}
+header h1{
+    font-size: 18px;
+    text-align: center;
+    color: #f00;
+}
+
+footer{
+    padding: 20px; 
+    text-align: right;
+}
+
+/*Table Style*/
+table{
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+table,tr,td{
+    border:1px solid #999;
+}
+th{
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+}
+td{
+    min-width: 120px;
+    height: 35px;
+    padding: 2px;
+    overflow:hidden;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+}
+.jiben{
+    background: #EEEEEE;
+    height: 25px;
+    font-weight: bold;
+    color: #003399;
+}
+.left{
+    text-align: right;
+}
+input{
+    height: 22px;
+}
+select{
+    height: 24px;
+}
+input[type=checkbox]{
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+input[type=submit]{
+    height: 35px;
+    width: 60px;
+}
+textarea{
+    resize: none;
+}
+td.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
